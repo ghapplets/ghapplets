@@ -26,7 +26,7 @@
     "less-watch": "autoless less/ public/",
     "less": "lessc less/style.less public/style.css",
     "watch": "npm run pug && npm run less && concurrently \"npm run watch-assets\" \"npm run pug-watch\" \"npm run budo\" \"npm run less-watch\"",
-    "publish": "npm run build && cpx \"public/**/*\" \"../\" --clean"
+    "publish": "npm run build && cpx \"public/**/*\" \"../\""
   },
   "author": "Kyle Phillips <kyle@haptic-data.com> (http://hapticdata.com/)",
   "license": "MIT",
